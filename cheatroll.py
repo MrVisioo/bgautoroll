@@ -8,7 +8,7 @@ score = 80
 rolls = 10
 
 if len(sys.argv) > 1: 
-  score = int(sys.argv[10])
+  score = int(sys.argv[1])
 if len(sys.argv) > 2:
   rolls = int(sys.argv[2])
 
