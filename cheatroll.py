@@ -9,6 +9,7 @@ rolls = 10
 
 if len(sys.argv) > 1: 
   score = int(sys.argv[10])
+if len(sys.argv) > 2:
   rolls = int(sys.argv[2])
 
 with PyTessBaseAPI(psm=PSM.SINGLE_WORD) as api:
